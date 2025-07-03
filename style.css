@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    width: 300px;
+}
+
+#inputBox {
+    width: 100%;
+    height: 60px;
+    font-size: 2em;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    flex: 1;
+    height: 60px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.digitButton {
+    background-color: #80a9f5;
+    color: white;
+}
+
+.operatorButton {
+    background-color: #32c1e9;
+    color: white;
+}
+
+.ACButton {
+    background-color: #f57c7c;
+    color: white;
+}
+
+.equalsButton {
+    background-color: #4CAF50;
+    color: white;
+    width: 100%;
+}
+.wide {
+    flex: 2;
+}
